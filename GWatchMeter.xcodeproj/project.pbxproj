@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC4FF461BB8EBDA005A03A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF451BB8EBDA005A03A0 /* AppDelegate.swift */; };
+		2AC4FF481BB8EBDA005A03A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF471BB8EBDA005A03A0 /* ViewController.swift */; };
+		2AC4FF4B1BB8EBDA005A03A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF491BB8EBDA005A03A0 /* Main.storyboard */; };
+		2AC4FF4D1BB8EBDA005A03A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF4C1BB8EBDA005A03A0 /* Assets.xcassets */; };
+		2AC4FF501BB8EBDA005A03A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF4E1BB8EBDA005A03A0 /* LaunchScreen.storyboard */; };
+		2AC4FF5B1BB8EBDB005A03A0 /* GWatchMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF5A1BB8EBDB005A03A0 /* GWatchMeterTests.swift */; };
+		2AC4FF661BB8EBDB005A03A0 /* GWatchMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF651BB8EBDB005A03A0 /* GWatchMeterUITests.swift */; };
+		2AC4FF6B1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2AC4FF6A1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app */; };
+		2AC4FF711BB8EBDB005A03A0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF6F1BB8EBDB005A03A0 /* Interface.storyboard */; };
+		2AC4FF731BB8EBDB005A03A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF721BB8EBDB005A03A0 /* Assets.xcassets */; };
+		2AC4FF7A1BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AC4FF791BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AC4FF811BB8EBDB005A03A0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF801BB8EBDB005A03A0 /* InterfaceController.swift */; };
+		2AC4FF831BB8EBDB005A03A0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF821BB8EBDB005A03A0 /* ExtensionDelegate.swift */; };
+		2AC4FF851BB8EBDB005A03A0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4FF841BB8EBDB005A03A0 /* NotificationController.swift */; };
+		2AC4FF871BB8EBDB005A03A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC4FF861BB8EBDB005A03A0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC4FF571BB8EBDB005A03A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC4FF3A1BB8EBDA005A03A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4FF411BB8EBDA005A03A0;
+			remoteInfo = GWatchMeter;
+		};
+		2AC4FF621BB8EBDB005A03A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC4FF3A1BB8EBDA005A03A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4FF411BB8EBDA005A03A0;
+			remoteInfo = GWatchMeter;
+		};
+		2AC4FF6C1BB8EBDB005A03A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC4FF3A1BB8EBDA005A03A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4FF691BB8EBDB005A03A0;
+			remoteInfo = "GWatchMeter WatchKit App";
+		};
+		2AC4FF7B1BB8EBDB005A03A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC4FF3A1BB8EBDA005A03A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC4FF781BB8EBDB005A03A0;
+			remoteInfo = "GWatchMeter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AC4FF8E1BB8EBDB005A03A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AC4FF7A1BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF921BB8EBDB005A03A0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2AC4FF6B1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AC4FF421BB8EBDA005A03A0 /* GWatchMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWatchMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4FF451BB8EBDA005A03A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AC4FF471BB8EBDA005A03A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC4FF4A1BB8EBDA005A03A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC4FF4C1BB8EBDA005A03A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC4FF4F1BB8EBDA005A03A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC4FF511BB8EBDA005A03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC4FF561BB8EBDB005A03A0 /* GWatchMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWatchMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4FF5A1BB8EBDB005A03A0 /* GWatchMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWatchMeterTests.swift; sourceTree = "<group>"; };
+		2AC4FF5C1BB8EBDB005A03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC4FF611BB8EBDB005A03A0 /* GWatchMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWatchMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4FF651BB8EBDB005A03A0 /* GWatchMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWatchMeterUITests.swift; sourceTree = "<group>"; };
+		2AC4FF671BB8EBDB005A03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC4FF6A1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GWatchMeter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4FF701BB8EBDB005A03A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2AC4FF721BB8EBDB005A03A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC4FF741BB8EBDB005A03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC4FF791BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GWatchMeter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC4FF7F1BB8EBDB005A03A0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2AC4FF801BB8EBDB005A03A0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2AC4FF821BB8EBDB005A03A0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2AC4FF841BB8EBDB005A03A0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2AC4FF861BB8EBDB005A03A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC4FF881BB8EBDB005A03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC4FF3F1BB8EBDA005A03A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF531BB8EBDB005A03A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF5E1BB8EBDB005A03A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF761BB8EBDB005A03A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC4FF391BB8EBDA005A03A0 = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF441BB8EBDA005A03A0 /* GWatchMeter */,
+				2AC4FF591BB8EBDB005A03A0 /* GWatchMeterTests */,
+				2AC4FF641BB8EBDB005A03A0 /* GWatchMeterUITests */,
+				2AC4FF6E1BB8EBDB005A03A0 /* GWatchMeter WatchKit App */,
+				2AC4FF7D1BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension */,
+				2AC4FF431BB8EBDA005A03A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC4FF431BB8EBDA005A03A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF421BB8EBDA005A03A0 /* GWatchMeter.app */,
+				2AC4FF561BB8EBDB005A03A0 /* GWatchMeterTests.xctest */,
+				2AC4FF611BB8EBDB005A03A0 /* GWatchMeterUITests.xctest */,
+				2AC4FF6A1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app */,
+				2AC4FF791BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC4FF441BB8EBDA005A03A0 /* GWatchMeter */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF451BB8EBDA005A03A0 /* AppDelegate.swift */,
+				2AC4FF471BB8EBDA005A03A0 /* ViewController.swift */,
+				2AC4FF491BB8EBDA005A03A0 /* Main.storyboard */,
+				2AC4FF4C1BB8EBDA005A03A0 /* Assets.xcassets */,
+				2AC4FF4E1BB8EBDA005A03A0 /* LaunchScreen.storyboard */,
+				2AC4FF511BB8EBDA005A03A0 /* Info.plist */,
+			);
+			path = GWatchMeter;
+			sourceTree = "<group>";
+		};
+		2AC4FF591BB8EBDB005A03A0 /* GWatchMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF5A1BB8EBDB005A03A0 /* GWatchMeterTests.swift */,
+				2AC4FF5C1BB8EBDB005A03A0 /* Info.plist */,
+			);
+			path = GWatchMeterTests;
+			sourceTree = "<group>";
+		};
+		2AC4FF641BB8EBDB005A03A0 /* GWatchMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF651BB8EBDB005A03A0 /* GWatchMeterUITests.swift */,
+				2AC4FF671BB8EBDB005A03A0 /* Info.plist */,
+			);
+			path = GWatchMeterUITests;
+			sourceTree = "<group>";
+		};
+		2AC4FF6E1BB8EBDB005A03A0 /* GWatchMeter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF6F1BB8EBDB005A03A0 /* Interface.storyboard */,
+				2AC4FF721BB8EBDB005A03A0 /* Assets.xcassets */,
+				2AC4FF741BB8EBDB005A03A0 /* Info.plist */,
+			);
+			path = "GWatchMeter WatchKit App";
+			sourceTree = "<group>";
+		};
+		2AC4FF7D1BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF801BB8EBDB005A03A0 /* InterfaceController.swift */,
+				2AC4FF821BB8EBDB005A03A0 /* ExtensionDelegate.swift */,
+				2AC4FF841BB8EBDB005A03A0 /* NotificationController.swift */,
+				2AC4FF861BB8EBDB005A03A0 /* Assets.xcassets */,
+				2AC4FF881BB8EBDB005A03A0 /* Info.plist */,
+				2AC4FF7E1BB8EBDB005A03A0 /* Supporting Files */,
+			);
+			path = "GWatchMeter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2AC4FF7E1BB8EBDB005A03A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4FF7F1BB8EBDB005A03A0 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC4FF411BB8EBDA005A03A0 /* GWatchMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4FF931BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter" */;
+			buildPhases = (
+				2AC4FF3E1BB8EBDA005A03A0 /* Sources */,
+				2AC4FF3F1BB8EBDA005A03A0 /* Frameworks */,
+				2AC4FF401BB8EBDA005A03A0 /* Resources */,
+				2AC4FF921BB8EBDB005A03A0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC4FF6D1BB8EBDB005A03A0 /* PBXTargetDependency */,
+			);
+			name = GWatchMeter;
+			productName = GWatchMeter;
+			productReference = 2AC4FF421BB8EBDA005A03A0 /* GWatchMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC4FF551BB8EBDB005A03A0 /* GWatchMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4FF961BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterTests" */;
+			buildPhases = (
+				2AC4FF521BB8EBDB005A03A0 /* Sources */,
+				2AC4FF531BB8EBDB005A03A0 /* Frameworks */,
+				2AC4FF541BB8EBDB005A03A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC4FF581BB8EBDB005A03A0 /* PBXTargetDependency */,
+			);
+			name = GWatchMeterTests;
+			productName = GWatchMeterTests;
+			productReference = 2AC4FF561BB8EBDB005A03A0 /* GWatchMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC4FF601BB8EBDB005A03A0 /* GWatchMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4FF991BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterUITests" */;
+			buildPhases = (
+				2AC4FF5D1BB8EBDB005A03A0 /* Sources */,
+				2AC4FF5E1BB8EBDB005A03A0 /* Frameworks */,
+				2AC4FF5F1BB8EBDB005A03A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC4FF631BB8EBDB005A03A0 /* PBXTargetDependency */,
+			);
+			name = GWatchMeterUITests;
+			productName = GWatchMeterUITests;
+			productReference = 2AC4FF611BB8EBDB005A03A0 /* GWatchMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2AC4FF691BB8EBDB005A03A0 /* GWatchMeter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4FF8F1BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter WatchKit App" */;
+			buildPhases = (
+				2AC4FF681BB8EBDB005A03A0 /* Resources */,
+				2AC4FF8E1BB8EBDB005A03A0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC4FF7C1BB8EBDB005A03A0 /* PBXTargetDependency */,
+			);
+			name = "GWatchMeter WatchKit App";
+			productName = "GWatchMeter WatchKit App";
+			productReference = 2AC4FF6A1BB8EBDB005A03A0 /* GWatchMeter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2AC4FF781BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC4FF8B1BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter WatchKit Extension" */;
+			buildPhases = (
+				2AC4FF751BB8EBDB005A03A0 /* Sources */,
+				2AC4FF761BB8EBDB005A03A0 /* Frameworks */,
+				2AC4FF771BB8EBDB005A03A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GWatchMeter WatchKit Extension";
+			productName = "GWatchMeter WatchKit Extension";
+			productReference = 2AC4FF791BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC4FF3A1BB8EBDA005A03A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ignacio Bona Piedrabuena";
+				TargetAttributes = {
+					2AC4FF411BB8EBDA005A03A0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2AC4FF551BB8EBDB005A03A0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2AC4FF411BB8EBDA005A03A0;
+					};
+					2AC4FF601BB8EBDB005A03A0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2AC4FF411BB8EBDA005A03A0;
+					};
+					2AC4FF691BB8EBDB005A03A0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2AC4FF781BB8EBDB005A03A0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AC4FF3D1BB8EBDA005A03A0 /* Build configuration list for PBXProject "GWatchMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC4FF391BB8EBDA005A03A0;
+			productRefGroup = 2AC4FF431BB8EBDA005A03A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC4FF411BB8EBDA005A03A0 /* GWatchMeter */,
+				2AC4FF551BB8EBDB005A03A0 /* GWatchMeterTests */,
+				2AC4FF601BB8EBDB005A03A0 /* GWatchMeterUITests */,
+				2AC4FF691BB8EBDB005A03A0 /* GWatchMeter WatchKit App */,
+				2AC4FF781BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC4FF401BB8EBDA005A03A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF501BB8EBDA005A03A0 /* LaunchScreen.storyboard in Resources */,
+				2AC4FF4D1BB8EBDA005A03A0 /* Assets.xcassets in Resources */,
+				2AC4FF4B1BB8EBDA005A03A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF541BB8EBDB005A03A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF5F1BB8EBDB005A03A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF681BB8EBDB005A03A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF731BB8EBDB005A03A0 /* Assets.xcassets in Resources */,
+				2AC4FF711BB8EBDB005A03A0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF771BB8EBDB005A03A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF871BB8EBDB005A03A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC4FF3E1BB8EBDA005A03A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF481BB8EBDA005A03A0 /* ViewController.swift in Sources */,
+				2AC4FF461BB8EBDA005A03A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF521BB8EBDB005A03A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF5B1BB8EBDB005A03A0 /* GWatchMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF5D1BB8EBDB005A03A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF661BB8EBDB005A03A0 /* GWatchMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC4FF751BB8EBDB005A03A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC4FF851BB8EBDB005A03A0 /* NotificationController.swift in Sources */,
+				2AC4FF831BB8EBDB005A03A0 /* ExtensionDelegate.swift in Sources */,
+				2AC4FF811BB8EBDB005A03A0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC4FF581BB8EBDB005A03A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4FF411BB8EBDA005A03A0 /* GWatchMeter */;
+			targetProxy = 2AC4FF571BB8EBDB005A03A0 /* PBXContainerItemProxy */;
+		};
+		2AC4FF631BB8EBDB005A03A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4FF411BB8EBDA005A03A0 /* GWatchMeter */;
+			targetProxy = 2AC4FF621BB8EBDB005A03A0 /* PBXContainerItemProxy */;
+		};
+		2AC4FF6D1BB8EBDB005A03A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4FF691BB8EBDB005A03A0 /* GWatchMeter WatchKit App */;
+			targetProxy = 2AC4FF6C1BB8EBDB005A03A0 /* PBXContainerItemProxy */;
+		};
+		2AC4FF7C1BB8EBDB005A03A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC4FF781BB8EBDB005A03A0 /* GWatchMeter WatchKit Extension */;
+			targetProxy = 2AC4FF7B1BB8EBDB005A03A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC4FF491BB8EBDA005A03A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC4FF4A1BB8EBDA005A03A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC4FF4E1BB8EBDA005A03A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC4FF4F1BB8EBDA005A03A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC4FF6F1BB8EBDB005A03A0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC4FF701BB8EBDB005A03A0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC4FF891BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC4FF8A1BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC4FF8C1BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GWatchMeter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2AC4FF8D1BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GWatchMeter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2AC4FF901BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GWatchMeter_WatchKit_Extension;
+				INFOPLIST_FILE = "GWatchMeter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2AC4FF911BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GWatchMeter_WatchKit_Extension;
+				INFOPLIST_FILE = "GWatchMeter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2AC4FF941BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWatchMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AC4FF951BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWatchMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AC4FF971BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWatchMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWatchMeter.app/GWatchMeter";
+			};
+			name = Debug;
+		};
+		2AC4FF981BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWatchMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWatchMeter.app/GWatchMeter";
+			};
+			name = Release;
+		};
+		2AC4FF9A1BB8EBDB005A03A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWatchMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWatchMeter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2AC4FF9B1BB8EBDB005A03A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWatchMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWatchMeter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC4FF3D1BB8EBDA005A03A0 /* Build configuration list for PBXProject "GWatchMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF891BB8EBDB005A03A0 /* Debug */,
+				2AC4FF8A1BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC4FF8B1BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF8C1BB8EBDB005A03A0 /* Debug */,
+				2AC4FF8D1BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC4FF8F1BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF901BB8EBDB005A03A0 /* Debug */,
+				2AC4FF911BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC4FF931BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF941BB8EBDB005A03A0 /* Debug */,
+				2AC4FF951BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC4FF961BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF971BB8EBDB005A03A0 /* Debug */,
+				2AC4FF981BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC4FF991BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC4FF9A1BB8EBDB005A03A0 /* Debug */,
+				2AC4FF9B1BB8EBDB005A03A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC4FF3A1BB8EBDA005A03A0 /* Project object */;
+}
