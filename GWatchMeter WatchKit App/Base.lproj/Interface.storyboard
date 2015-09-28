@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GWatchMeter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="x:0" textAlignment="left" id="jA3-Dk-j2T">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <label width="1" alignment="left" text="y:0" id="WDe-Kc-P2C"/>
+                        <label width="1" alignment="left" text="z:0" id="A2P-Tp-fBI"/>
+                        <label alignment="left" text="Total: 0" id="bUL-Dx-gB2"/>
+                        <label alignment="left" text="Min: 1" id="pK0-kA-aj0"/>
+                        <label alignment="left" text="Max:1" id="WHJ-BC-Bfk"/>
+                    </items>
+                    <connections>
+                        <outlet property="maxForceLabel" destination="WHJ-BC-Bfk" id="8pk-Nh-uEY"/>
+                        <outlet property="minForceLabel" destination="pK0-kA-aj0" id="Ubf-Sb-4Hw"/>
+                        <outlet property="totalForceLabel" destination="bUL-Dx-gB2" id="l9r-8j-IgY"/>
+                        <outlet property="xForceLabel" destination="jA3-Dk-j2T" id="bth-0B-ntm"/>
+                        <outlet property="yForceLabel" destination="WDe-Kc-P2C" id="WQL-op-PxO"/>
+                        <outlet property="zForceLabel" destination="A2P-Tp-fBI" id="h6b-A2-hc0"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -31,7 +50,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="GWatchMeter_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

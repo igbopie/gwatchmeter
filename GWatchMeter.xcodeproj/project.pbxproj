@@ -328,6 +328,7 @@
 				TargetAttributes = {
 					2AC4FF411BB8EBDA005A03A0 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F32CTK5PWN;
 					};
 					2AC4FF551BB8EBDB005A03A0 = {
 						CreatedOnToolsVersion = 7.0;
@@ -342,6 +343,7 @@
 					};
 					2AC4FF781BB8EBDB005A03A0 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F32CTK5PWN;
 					};
 				};
 			};
@@ -586,10 +588,13 @@
 		2AC4FF8C1BB8EBDB005A03A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWatchMeter WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -600,10 +605,13 @@
 		2AC4FF8D1BB8EBDB005A03A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWatchMeter WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -647,10 +655,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GWatchMeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -658,10 +670,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GWatchMeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ignaciobona.GWatchMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -732,6 +748,7 @@
 				2AC4FF8D1BB8EBDB005A03A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC4FF8F1BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +757,7 @@
 				2AC4FF911BB8EBDB005A03A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC4FF931BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeter" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +766,7 @@
 				2AC4FF951BB8EBDB005A03A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC4FF961BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterTests" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +775,7 @@
 				2AC4FF981BB8EBDB005A03A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC4FF991BB8EBDB005A03A0 /* Build configuration list for PBXNativeTarget "GWatchMeterUITests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +784,7 @@
 				2AC4FF9B1BB8EBDB005A03A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
